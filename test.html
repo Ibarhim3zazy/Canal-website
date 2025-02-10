@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent News and Events</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        .section-header {
+            font-size: 2.5rem;
+            font-weight: bold;
+            padding-left: 20px;
+            border-left: 5px solid #D50032; /* Red color border */
+            margin-bottom: 1.5rem;
+        }
+        .media-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .media-image-container {
+            position: relative;
+        }
+        .media-text {
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+            color: white;
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .event-card {
+            margin-bottom: 1rem;
+        }
+        .event-card .card-body {
+            padding: 1.5rem;
+        }
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .tags .badge {
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .read-more-btn {
+            text-decoration: none;
+            font-weight: bold;
+            color: #D50032;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row align-items-center">
+            <!-- Left column (Image) -->
+            <div class="col-lg-6">
+                
+                <div>   
+                    <h2 class="section-header">Recent News and Upcoming Events</h2>
+                    <a href="#" class="read-more-btn">Read More in Our Media Hub →</a>
+                </div>
+
+                <div class="media-image-container">
+                    <img src="https://via.placeholder.com/800x400" alt="News Image" class="media-image">
+                    <div class="media-text">
+                        The Role of 5G and Beyond in Rooftop Leasing
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right column (Event List) -->
+            <div class="col-lg-6">
+                <div class="event-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="tags">
+                                <a href="" class="badge bg-light text-dark">Blog</a>
+                                <a href="" class="badge bg-light text-dark">Towers</a>
+                                <a href="" class="badge bg-light text-dark">Rural Broadband</a>
+                                <a href="" class="badge bg-light text-dark">U.S.</a>
+                            </div>
+                            <h5 class="card-title">Chapter 4 | Understanding the Full Picture: Ease Your Network Rollout With the Right Partner | E-book</h5>
+                            <p class="card-text">December 2, 2024</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="tags">
+                                <a href="" class="badge bg-light text-dark">Blog</a>
+                                <a href="" class="badge bg-light text-dark">CoreSite</a>
+                                <a href="" class="badge bg-light text-dark">Data Centers</a>
+                                <a href="" class="badge bg-light text-dark">Edge</a>
+                                <a href="" class="badge bg-light text-dark">Industry</a>
+                                <a href="" class="badge bg-light text-dark">U.S.</a>
+                            </div>
+                            <h5 class="card-title">Infrastructure Buildout Perspectives | Inside Towers</h5>
+                            <p class="card-text">January 9, 2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="tags">
+                                <a href="" class="badge bg-light text-dark">Blog</a>
+                                <a href="" class="badge bg-light text-dark">Data Centers</a>
+                                <a href="" class="badge bg-light text-dark">Edge</a>
+                                <a href="" class="badge bg-light text-dark">U.S.</a>
+                            </div>
+                            <h5 class="card-title">Working to Ensure Widespread Connectivity, Enhanced User Experiences</h5>
+                            <p class="card-text">December 4, 2024</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="tags">
+                                <a href="" class="badge bg-light text-dark">Blog</a>
+                                <a href="" class="badge bg-light text-dark">Data Centers</a>
+                                <a href="" class="badge bg-light text-dark">Edge</a>
+                                <a href="" class="badge bg-light text-dark">U.S.</a>
+                            </div>
+                            <h5 class="card-title">American Tower Begins Vertical Construction of its First Edge Data Center in Raleigh, North Carolina</h5>
+                            <p class="card-text">November 19, 2024</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

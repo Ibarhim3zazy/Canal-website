@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<!-- Mobile Specific Metas
+================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Canal Website">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name=author content="Ibrahim Azazy">
+  <meta name=generator content="Canal HTML Template v1.0">
+
+<!-- Favicon
+================================================== -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+<!-- CSS
+================================================== -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+    
+  
+<style>
+  
+  /* Connectivity With CoreSite Section  */
+  
+  .datacenter-section {
+      position: relative;
+      min-height: 100vh;
+      background-image: url('../images/gettyimages-1148195844.jpg.webp');
+      background-size: cover;
+      overflow: hidden;
+  }
+  
+  .content-wrapper {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      /* padding: 8% 15px; */
+      z-index: 10;
+  }
+  
+  .content-card {
+      background: #ffffff;
+      max-width: 550px;
+      padding: 3rem 2.5rem;
+      margin-left: 10%;
+      position: relative;
+      right: 0;
+  }
+  
+  .red-accent {
+      position: absolute;
+      left: 0;
+      top: 2.5rem;
+      width: 4px;
+      height: 40px;
+      background-color: #E31837;
+  }
+  
+  .content-card h1 {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 2.75rem;
+      font-weight: 600;
+      line-height: 1.2;
+      color: #1a1a1a;
+      margin-bottom: 1.5rem;
+  }
+  
+  .content-card p {
+      font-size: 1.125rem;
+      line-height: 1.5;
+      color: #4a4a4a;
+      margin-bottom: 2rem;
+      max-width: 90%;
+  }
+  
+  .cta-link {
+      color: #E31837;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1.1rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+  }
+  
+  .cta-link:hover {
+      color: #b31329;
+  }
+  
+  .arrow-icon {
+      transition: transform 0.3s ease;
+  }
+  
+  .cta-link:hover .arrow-icon {
+      transform: translateX(5px);
+  }
+  
+  @media (max-width: 992px) {
+      .content-card {
+          margin: 0 auto;
+          padding: 2.5rem 2rem;
+      }
+  
+      .content-card h1 {
+          font-size: 2.25rem;
+      }
+  }
+  
+  @media (max-width: 576px) {
+      .content-wrapper {
+          padding: 2rem 15px;
+      }
+  
+      .content-card h1 {
+          font-size: 2rem;
+      }
+  
+      .content-card p {
+          font-size: 1rem;
+      }
+  }
+  </style>
+</head>
+<body>
+  <!-- Top Nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #dcddde; height: 40px;">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 nav-links">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Join Our Team
+              <i class="fa fa-arrow-up cfa-arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Register
+              <i class="fa fa-arrow-up cfa-arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" aria-current="page" href="#">Find Sites
+              <i class="fa fa-arrow-up cfa-arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a  class="nav-link" aria-current="page" href="#">Canal Corporate
+              <i class="fa fa-arrow-up cfa-arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex ms-4">
+          <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Main nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light main-nav" style="background-color: #ffffff; height: 5rem;">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/canal_logo.png" alt="Canal" width="150">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Home
+              <i class="fa fa-home" aria-hidden="true"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About Canal
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Organization
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              References
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Show Me
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contact
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <button type="submit" class="btn btn-danger rounded-0 px-3 py-1 ms-5">Contact Us</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero landing -->
+  <div class="container-flued hero-landing">
+    <div class="home">
+      <video muted loop autoplay>
+        <source src="assets/video/US_Hero_Video.mp4" type="video/mp4">
+      </video>
+      <div class="home-content container d-flex justify-content-between">
+        <h1>Find Sites</h1>
+        <div>
+          <p>
+            Find your ideal communications sites in the U.S. Leveraging the latest mapping technology, our Site Locator tool provides information on our leading portfolio, so you can choose sites that best support your network objectives. To access our tool, you need to have an Canal account.
+          </p>
+
+            <div class="container d-flex justify-content-start align-items-center py-4">
+              <!-- Register Button -->
+              <a href="#" class="btn btn-custom btn-register me-3">
+                  Register for an Account
+                  <span class="icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M9 18l6-6-6-6"/>
+                      </svg>
+                  </span>
+              </a>
+      
+              <!-- Login Button -->
+              <a href="#" class="btn btn-custom btn-login">
+                  Log In to Your Account
+                  <span class="icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M9 18l6-6-6-6"/>
+                      </svg>
+                  </span>
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- diagonal-section -->
+  <section class="diagonal-section container mb-5">
+    <div class="diagonal-bg"></div>
+    <div class="red-line"></div>
+    
+    <div class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="image-stack">
+                        <div class="img-container">
+                          <img src="assets/images/chicago_night_2.jpg.webp" alt="City Network" class="image-city">
+                        </div>
+                        
+                        <img src="assets/images/gettyimages_1080277602.jpg.webp" alt="Team Meeting" class="image-people">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="network-heading">Expand and Strengthen Your Network</h2>
+                    <p class="network-text">
+                        No matter what your network goals are — rural coverage, urban densification, or anything in between — our leading portfolio offers you the right sites in the right locations to support your network goals of today and tomorrow.
+                    </p>
+                    <a href="#" class="cta-link">
+                        Log In or Sign Up to Find Sites 
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- vertical slider section -->
+<div class="vertical-slider">
+  <div class="container">
+    <h1 class="my-5">Take the Next Step With Canal</h1>
+  </div>
+  <div class="slider-controls">
+      <div class="nav-group">
+          <button class="nav-button prev">↑</button>
+          <span class="slide-number">1/7</span>
+      </div>
+      <div class="slide-dots">
+          <div class="dot active"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+      </div>
+      <button class="nav-button next">↓</button>
+  </div>
+
+  <div class="slides-container">
+      <!-- Slide 1 -->
+      <div class="slide">
+          <div class="slide-content" style="--bg-image: url('https://via.placeholder.com/1920x1080/111111')">
+              <div class="content-wrapper">
+                  <div class="slide-text">
+                      <h2>Mobile Network Operators 1</h2>
+                      <p>American Tower supports national and regional Mobile Network Operators (MNOs) in achieving their 5G network expansion goals, offering streamlined collocation processes and services.</p>
+                      <button class="btn btn-outline-light">See How We Support MNOs →</button>
+                  </div>
+                  <div class="img-container-slider">
+                    <img src="assets/images/energy_providers.jpg.webp" alt="Mobile Networks" class="slide-image">
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="slide">
+          <div class="slide-content" style="--bg-image: url('https://via.placeholder.com/1920x1080/222222')">
+              <div class="content-wrapper">
+                  <div class="slide-text">
+                      <h2>Digital Infrastructure 2</h2>
+                      <p>Building the foundation for tomorrow's connected world with innovative digital infrastructure solutions.</p>
+                      <button class="btn btn-outline-light">Learn More →</button>
+                  </div>
+                  <img src="https://via.placeholder.com/400x300" alt="Digital Infrastructure" class="slide-image">
+              </div>
+          </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slide">
+          <div class="slide-content" style="--bg-image: url('https://via.placeholder.com/1920x1080/333333')">
+              <div class="content-wrapper">
+                  <div class="slide-text">
+                      <h2>Smart Solutions 3</h2>
+                      <p>Empowering smart cities and communities with advanced connectivity solutions and infrastructure.</p>
+                      <button class="btn btn-outline-light">Discover Solutions →</button>
+                  </div>
+                  <img src="https://via.placeholder.com/400x300" alt="Smart Solutions" class="slide-image">
+              </div>
+          </div>
+      </div>
+      <!-- Slide 4 -->
+      <div class="slide">
+          <div class="slide-content" style="--bg-image: url('https://via.placeholder.com/1920x1080/333333')">
+              <div class="content-wrapper">
+                  <div class="slide-text">
+                      <h2>Smart Solutions 4</h2>
+                      <p>Empowering smart cities and communities with advanced connectivity solutions and infrastructure.</p>
+                      <button class="btn btn-outline-light">Discover Solutions →</button>
+                  </div>
+                  <img src="https://via.placeholder.com/400x300" alt="Smart Solutions" class="slide-image">
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Cards section -->
+ <div class="solutions-con py-5">
+  <div class="container">
+    <!-- Previous header section remains the same -->
+    <div class="solutions-header">
+        <h1>Our Solutions</h1>
+    </div>
+    
+    <p class="solutions-description">
+        Our assets and solutions enhance wireless coverage to meet the demands of today's 5G networks—and beyond.
+    </p>
+
+    <a href="#" class="view-all-link">
+        View All Our Infrastructure Solutions and Services 
+        <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+    </a>
+
+    <div class="solutions-grid">
+        <div class="row g-0">
+            <!-- Towers and Rooftops -->
+            <div class="col-12 col-lg-4">
+                <div class="solution-card">
+                    <div>
+                        <svg class="solution-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 22h20L12 2z M12 22V6"/>
+                        </svg>
+                        <h3 class="solution-title">Towers and Rooftops</h3>
+                        <p class="solution-description">Fill capacity and coverage for evolving network demands with our leading portfolio of nationwide assets and consistent, efficient collocation process for tower and rooftop sites.</p>
+                    </div>
+                    <a href="#" class="read-more-link">
+                        Read More About Towers and Rooftops
+                        <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Other cards follow the same pattern -->
+            <!-- Services -->
+            <div class="col-12 col-lg-4">
+                <div class="solution-card">
+                    <div>
+                        <svg class="solution-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 3.269C14 2.568 13.432 2 12.731 2H11.27C10.568 2 10 2.568 10 3.269v0c0 .578-.396 1.074-.935 1.286-.085.034-.17.07-.253.106-.539.233-1.186.114-1.615-.315v0c-.496-.496-1.3-.496-1.796 0L4.286 5.461c-.496.496-.496 1.3 0 1.796v0c.429.429.548 1.076.315 1.615-.036.083-.072.168-.106.253-.212.539-.708.935-1.286.935v0C2.568 10 2 10.568 2 11.269v1.462C2 13.432 2.568 14 3.269 14v0c.578 0 1.074.396 1.286.935.034.085.07.17.106.253.233.539.114 1.186-.315 1.615v0c-.496.496-.496 1.3 0 1.796l1.115 1.115c.496.496 1.3.496 1.796 0v0c.429-.429 1.076-.548 1.615-.315.083.036.168.072.253.106.539.212.935.708.935 1.286v0c0 .701.568 1.269 1.269 1.269h1.462c.701 0 1.269-.568 1.269-1.269v0c0-.578.396-1.074.935-1.286.085-.034.17-.07.253-.106.539-.233 1.186-.114 1.615.315v0c.496.496 1.3.496 1.796 0l1.115-1.115c.496-.496.496-1.3 0-1.796v0c-.429-.429-.548-1.076-.315-1.615.036-.083.072-.168.106-.253.212-.539.708-.935 1.286-.935v0c.701 0 1.269-.568 1.269-1.269V11.27c0-.701-.568-1.269-1.269-1.269v0c-.578 0-1.074-.396-1.286-.935-.034-.085-.07-.17-.106-.253-.233-.539-.114-1.186.315-1.615v0c.496-.496.496-1.3 0-1.796l-1.115-1.115c-.496-.496-1.3-.496-1.796 0v0c-.429.429-1.076.548-1.615.315-.083-.036-.168-.072-.253-.106C14.396 4.343 14 3.847 14 3.269v0z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                        <h3 class="solution-title">Services</h3>
+                        <p class="solution-description">Streamline network deployment with our services solutions. Our wireless infrastructure real estate experience gives us the edge to ensure no detail is overlooked, so you can be confident we've got your project covered from start to finish.</p>
+                    </div>
+                    <a href="#" class="read-more-link">
+                        Read More About Services
+                        <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <!-- Services -->
+            <div class="col-12 col-lg-4">
+                <div class="solution-card">
+                    <div>
+                        <svg class="solution-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 3.269C14 2.568 13.432 2 12.731 2H11.27C10.568 2 10 2.568 10 3.269v0c0 .578-.396 1.074-.935 1.286-.085.034-.17.07-.253.106-.539.233-1.186.114-1.615-.315v0c-.496-.496-1.3-.496-1.796 0L4.286 5.461c-.496.496-.496 1.3 0 1.796v0c.429.429.548 1.076.315 1.615-.036.083-.072.168-.106.253-.212.539-.708.935-1.286.935v0C2.568 10 2 10.568 2 11.269v1.462C2 13.432 2.568 14 3.269 14v0c.578 0 1.074.396 1.286.935.034.085.07.17.106.253.233.539.114 1.186-.315 1.615v0c-.496.496-.496 1.3 0 1.796l1.115 1.115c.496.496 1.3.496 1.796 0v0c.429-.429 1.076-.548 1.615-.315.083.036.168.072.253.106.539.212.935.708.935 1.286v0c0 .701.568 1.269 1.269 1.269h1.462c.701 0 1.269-.568 1.269-1.269v0c0-.578.396-1.074.935-1.286.085-.034.17-.07.253-.106.539-.233 1.186-.114 1.615.315v0c.496.496 1.3.496 1.796 0l1.115-1.115c.496-.496.496-1.3 0-1.796v0c-.429-.429-.548-1.076-.315-1.615.036-.083.072-.168.106-.253.212-.539.708-.935 1.286-.935v0c.701 0 1.269-.568 1.269-1.269V11.27c0-.701-.568-1.269-1.269-1.269v0c-.578 0-1.074-.396-1.286-.935-.034-.085-.07-.17-.106-.253-.233-.539-.114-1.186.315-1.615v0c.496-.496.496-1.3 0-1.796l-1.115-1.115c-.496-.496-1.3-.496-1.796 0v0c-.429.429-1.076.548-1.615.315-.083-.036-.168-.072-.253-.106C14.396 4.343 14 3.847 14 3.269v0z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                        <h3 class="solution-title">Services</h3>
+                        <p class="solution-description">Streamline network deployment with our services solutions. Our wireless infrastructure real estate experience gives us the edge to ensure no detail is overlooked, so you can be confident we've got your project covered from start to finish.</p>
+                    </div>
+                    <a href="#" class="read-more-link">
+                        Read More About Services
+                        <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <!-- Services -->
+            <div class="col-12 col-lg-4">
+                <div class="solution-card">
+                    <div>
+                        <svg class="solution-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 3.269C14 2.568 13.432 2 12.731 2H11.27C10.568 2 10 2.568 10 3.269v0c0 .578-.396 1.074-.935 1.286-.085.034-.17.07-.253.106-.539.233-1.186.114-1.615-.315v0c-.496-.496-1.3-.496-1.796 0L4.286 5.461c-.496.496-.496 1.3 0 1.796v0c.429.429.548 1.076.315 1.615-.036.083-.072.168-.106.253-.212.539-.708.935-1.286.935v0C2.568 10 2 10.568 2 11.269v1.462C2 13.432 2.568 14 3.269 14v0c.578 0 1.074.396 1.286.935.034.085.07.17.106.253.233.539.114 1.186-.315 1.615v0c-.496.496-.496 1.3 0 1.796l1.115 1.115c.496.496 1.3.496 1.796 0v0c.429-.429 1.076-.548 1.615-.315.083.036.168.072.253.106.539.212.935.708.935 1.286v0c0 .701.568 1.269 1.269 1.269h1.462c.701 0 1.269-.568 1.269-1.269v0c0-.578.396-1.074.935-1.286.085-.034.17-.07.253-.106.539-.233 1.186-.114 1.615.315v0c.496.496 1.3.496 1.796 0l1.115-1.115c.496-.496.496-1.3 0-1.796v0c-.429-.429-.548-1.076-.315-1.615.036-.083.072-.168.106-.253.212-.539.708-.935 1.286-.935v0c.701 0 1.269-.568 1.269-1.269V11.27c0-.701-.568-1.269-1.269-1.269v0c-.578 0-1.074-.396-1.286-.935-.034-.085-.07-.17-.106-.253-.233-.539-.114-1.186.315-1.615v0c.496-.496.496-1.3 0-1.796l-1.115-1.115c-.496-.496-1.3-.496-1.796 0v0c-.429.429-1.076.548-1.615.315-.083-.036-.168-.072-.253-.106C14.396 4.343 14 3.847 14 3.269v0z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                        <h3 class="solution-title">Services</h3>
+                        <p class="solution-description">Streamline network deployment with our services solutions. Our wireless infrastructure real estate experience gives us the edge to ensure no detail is overlooked, so you can be confident we've got your project covered from start to finish.</p>
+                    </div>
+                    <a href="#" class="read-more-link">
+                        Read More About Services
+                        <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <!-- Services -->
+            <div class="col-12 col-lg-4">
+                <div class="solution-card">
+                    <div>
+                        <svg class="solution-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 3.269C14 2.568 13.432 2 12.731 2H11.27C10.568 2 10 2.568 10 3.269v0c0 .578-.396 1.074-.935 1.286-.085.034-.17.07-.253.106-.539.233-1.186.114-1.615-.315v0c-.496-.496-1.3-.496-1.796 0L4.286 5.461c-.496.496-.496 1.3 0 1.796v0c.429.429.548 1.076.315 1.615-.036.083-.072.168-.106.253-.212.539-.708.935-1.286.935v0C2.568 10 2 10.568 2 11.269v1.462C2 13.432 2.568 14 3.269 14v0c.578 0 1.074.396 1.286.935.034.085.07.17.106.253.233.539.114 1.186-.315 1.615v0c-.496.496-.496 1.3 0 1.796l1.115 1.115c.496.496 1.3.496 1.796 0v0c.429-.429 1.076-.548 1.615-.315.083.036.168.072.253.106.539.212.935.708.935 1.286v0c0 .701.568 1.269 1.269 1.269h1.462c.701 0 1.269-.568 1.269-1.269v0c0-.578.396-1.074.935-1.286.085-.034.17-.07.253-.106.539-.233 1.186-.114 1.615.315v0c.496.496 1.3.496 1.796 0l1.115-1.115c.496-.496.496-1.3 0-1.796v0c-.429-.429-.548-1.076-.315-1.615.036-.083.072-.168.106-.253.212-.539.708-.935 1.286-.935v0c.701 0 1.269-.568 1.269-1.269V11.27c0-.701-.568-1.269-1.269-1.269v0c-.578 0-1.074-.396-1.286-.935-.034-.085-.07-.17-.106-.253-.233-.539-.114-1.186.315-1.615v0c.496-.496.496-1.3 0-1.796l-1.115-1.115c-.496-.496-1.3-.496-1.796 0v0c-.429.429-1.076.548-1.615.315-.083-.036-.168-.072-.253-.106C14.396 4.343 14 3.847 14 3.269v0z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                        <h3 class="solution-title">Services</h3>
+                        <p class="solution-description">Streamline network deployment with our services solutions. Our wireless infrastructure real estate experience gives us the edge to ensure no detail is overlooked, so you can be confident we've got your project covered from start to finish.</p>
+                    </div>
+                    <a href="#" class="read-more-link">
+                        Read More About Services
+                        <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <!-- Services -->
+            <div class="col-12 col-lg-4">
+                <div class="solution-card">
+                    <div>
+                        <svg class="solution-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 3.269C14 2.568 13.432 2 12.731 2H11.27C10.568 2 10 2.568 10 3.269v0c0 .578-.396 1.074-.935 1.286-.085.034-.17.07-.253.106-.539.233-1.186.114-1.615-.315v0c-.496-.496-1.3-.496-1.796 0L4.286 5.461c-.496.496-.496 1.3 0 1.796v0c.429.429.548 1.076.315 1.615-.036.083-.072.168-.106.253-.212.539-.708.935-1.286.935v0C2.568 10 2 10.568 2 11.269v1.462C2 13.432 2.568 14 3.269 14v0c.578 0 1.074.396 1.286.935.034.085.07.17.106.253.233.539.114 1.186-.315 1.615v0c-.496.496-.496 1.3 0 1.796l1.115 1.115c.496.496 1.3.496 1.796 0v0c.429-.429 1.076-.548 1.615-.315.083.036.168.072.253.106.539.212.935.708.935 1.286v0c0 .701.568 1.269 1.269 1.269h1.462c.701 0 1.269-.568 1.269-1.269v0c0-.578.396-1.074.935-1.286.085-.034.17-.07.253-.106.539-.233 1.186-.114 1.615.315v0c.496.496 1.3.496 1.796 0l1.115-1.115c.496-.496.496-1.3 0-1.796v0c-.429-.429-.548-1.076-.315-1.615.036-.083.072-.168.106-.253.212-.539.708-.935 1.286-.935v0c.701 0 1.269-.568 1.269-1.269V11.27c0-.701-.568-1.269-1.269-1.269v0c-.578 0-1.074-.396-1.286-.935-.034-.085-.07-.17-.106-.253-.233-.539-.114-1.186.315-1.615v0c.496-.496.496-1.3 0-1.796l-1.115-1.115c-.496-.496-1.3-.496-1.796 0v0c-.429.429-1.076.548-1.615.315-.083-.036-.168-.072-.253-.106C14.396 4.343 14 3.847 14 3.269v0z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                        <h3 class="solution-title">Services</h3>
+                        <p class="solution-description">American Tower helps businesses solve challenges and meet evolving technologies with Data Center and interconnectivity solutions. Our digital infrastructure can improve the performance of applications, increase convenience, and provide reliable support for the most critical workloads.</p>
+                    </div>
+                    <a href="#" class="read-more-link">
+                        Read More About Services
+                        <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Remaining cards follow the same pattern -->
+            <!-- Continue with the other 4 cards using the same structure -->
+            
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- Connectivity With CoreSite Section -->
+<section class="datacenter-section">
+  
+  <div class="content-wrapper m-5">
+      <div class="content-card">
+          <div class="red-accent"></div>
+          <h1>Connectivity With CoreSite</h1>
+          <p>Building a digital future, American Tower and CoreSite are revolutionizing cloud-to-edge infrastructure.</p>
+          <a href="#" class="cta-link">
+              See Connectivity With CoreSite
+              <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13 6L19 12L13 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M19 12H5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+          </a>
+      </div>
+  </div>
+</section>
+
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6 contact-section p-5">
+              <h1 class="mb-4">Take the Next Step With Canal</h1>
+              <div class="d-flex gap-3">
+                  <a href="#contact" class="cta-button text-decoration-none">
+                      Contact Us <i class="fas fa-arrow-right ms-2"></i>
+                  </a>
+                  <a href="#careers" class="cta-button btn-joinToOurTeam text-decoration-none">
+                      Join Our Team <i class="fas fa-arrow-right ms-2"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-3 mb-4">
+              <img src="assets/images/Canal_logo_white.png" alt="Canal Logo" class="mb-3 canal-logo" width="150">
+              <p>U.S. Tower Headquarters<br>
+              10 Presidential Way<br>
+              Woburn, MA 01801<br>
+              877-ATC-SITE (877-282-7483)</p>
+              <a href="#linkedin" class="me-3">
+                  <i class="fab fa-linkedin fa-lg"></i>
+              </a>
+          </div>
+          
+          <div class="col-md-6">
+              <div class="row">
+                  <div class="col-sm-4 mb-4">
+                      <h6 class="text-uppercase mb-3">Quick Links</h6>
+                      <ul class="list-unstyled">
+                          <li class="mb-2"><a href="#assets">Assets & Solutions</a></li>
+                          <li class="mb-2"><a href="#industries">Industries</a></li>
+                          <li class="mb-2"><a href="#support">Our Customer Support</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-4 mb-4">
+                      <h6 class="text-uppercase mb-3">Resources</h6>
+                      <ul class="list-unstyled">
+                          <li class="mb-2"><a href="#landowners">Landowners</a></li>
+                          <li class="mb-2"><a href="#vendors">Vendors</a></li>
+                          <li class="mb-2"><a href="#media">Media Hub</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-4 mb-4">
+                      <h6 class="text-uppercase mb-3">Company</h6>
+                      <ul class="list-unstyled">
+                          <li class="mb-2"><a href="#faqs">FAQs</a></li>
+                          <li class="mb-2"><a href="#careers">Careers</a></li>
+                          <li class="mb-2"><a href="#media-relations">Media Relations <i class="fas fa-arrow-right ms-1"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-md-3 mb-4">
+              <h6 class="text-uppercase mb-3">Join Our Mailing List</h6>
+              <form id="subscribeForm">
+                  <div class="mb-3">
+                      <input type="text" class="form-control" placeholder="First Name *" required>
+                  </div>
+                  <div class="mb-3">
+                      <input type="text" class="form-control" placeholder="Last Name *" required>
+                  </div>
+                  <div class="mb-3">
+                      <input type="email" class="form-control" placeholder="Email *" required>
+                  </div>
+                  <div class="recaptcha-container">
+                      <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="recaptcha">
+                          <label class="form-check-label" for="recaptcha">
+                              I'm not a robot
+                          </label>
+                      </div>
+                  </div>
+                  <div class="mb-3">
+                      <small>I accept <a href="#terms">Terms of Use</a> and <a href="#privacy">Privacy Policy</a></small>
+                  </div>
+                  <button type="submit" class="btn sign-up-btn text-white">SIGN UP</button>
+              </form>
+          </div>
+      </div>
+      
+      <div class="footer-bottom">
+          <div class="row">
+              <div class="col-md-6">
+                  <small>&copy; 2004-2025 by ATC TRS V LLC. All rights reserved</small>
+              </div>
+              <div class="col-md-6 text-md-end">
+                  <small>
+                      <a href="#legal" class="me-3">Legal</a>
+                      <a href="#privacy" class="me-3">Privacy Policy</a>
+                      <a href="#cookies" class="me-3">Cookie Preferences</a>
+                      <a href="#sitemap">Sitemap</a>
+                  </small>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<!-- Javascript Files
+  ================================================== -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+  
+    <!-- Template custom -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
