@@ -454,7 +454,7 @@
                             <p class="text-muted mb-2">Microwave Manager</p>
                             <div class="contact-info">
                                 <p class="mb-1"><i class="fas fa-phone me-2"></i>+971 50 636 2390</p>
-                                <input class="mb-0"><i class="fas fa-envelope me-2"></i>osama.abdelgaffar@canal-tel.com</input>
+                                <p class="mb-0"><i class="fas fa-envelope me-2"></i>osama.abdelgaffar@canal-tel.com</p>
                             </div>
                         </div>
                     </div>
