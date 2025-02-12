@@ -267,7 +267,7 @@
                             strengthens for all types. Along with supplying
                             all required materials in Civil work.</p>
                     </div>
-                    <a href="#" class="read-more-link">
+                    <a href="civil-work-service.php" class="read-more-link">
                         Read More About Civil Work & SAQ
                         <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -290,7 +290,7 @@
                             system Installation related to Mobile networks
                             sites.</p>
                     </div>
-                    <a href="#" class="read-more-link">
+                    <a href="./acquisition-service.php" class="read-more-link">
                         Read More About Power Work
                         <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -313,7 +313,7 @@
                             Automation Systems (BAS), Industrial
                             Automation and IT infrastructure.</p>
                     </div>
-                    <a href="#" class="read-more-link">
+                    <a href="telecom-work-service.php" class="read-more-link">
                         Read More About Telecom Work
                         <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M5 12h14M12 5l7 7-7 7"/>
