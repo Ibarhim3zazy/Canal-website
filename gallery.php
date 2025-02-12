@@ -23,7 +23,7 @@
       <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
       <link rel="stylesheet" href="./assets/css/all.min.css">
       <link rel="stylesheet" href="./assets/css/main.css">
-      <link rel="stylesheet" href="./assets/css/Gallery.css">
+      <link rel="stylesheet" href="./assets/css/gallery.css">
       <link rel="stylesheet" href="./assets/css/styles.css">
         
     </head>
