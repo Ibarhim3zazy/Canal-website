@@ -3,66 +3,6 @@
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
 */
 
-/* top header */
-.top-header-con .top-header {
-    background-color: #f8f9fa;
-    padding: 5px 0;
-    font-size: 14px;
-}
-
-.top-header-con .search-bar {
-    display: none;
-    background: white;
-    padding: 15px 0;
-    border-bottom: 1px solid #eee;
-    transition: all 0.3s ease;
-}
-
-.top-header-con .search-bar.active {
-    display: block;
-}
-
-.top-header-con .search-input {
-    width: 100%;
-    padding: 10px 40px 10px 15px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-.top-header-con .search-close {
-    position: absolute;
-    right: 25px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    color: #999;
-}
-
-.top-header-con .nav-link {
-    color: #333;
-    text-decoration: none;
-    padding: 0 15px;
-}
-
-.top-header-con .nav-link:hover {
-    color: #666;
-}
-
-.top-header-con .search-icon {
-    cursor: pointer;
-    padding: 5px;
-}
-
-@media (max-width: 768px) {
-    .top-header-con .top-header {
-        font-size: 12px;
-    }
-    
-    .top-header-con .nav-link {
-        padding: 0 8px;
-    }
-}
-
 /* main nav bar */
 .main-nav .navbar-light{
     z-index: 999;
@@ -321,7 +261,6 @@ body {
 .diagonal-section .network-text {
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #555;
     margin-bottom: 2rem;
 }
 
@@ -1024,170 +963,70 @@ body {
     }
 }
 
-/* media-full-con section */
-
-/* Background Image */
-.media-full-con .hero-section {
-    position: relative;
-    background: url('../images/office_scene.webp') center/cover no-repeat;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: left;
+/* Canal Team Section */
+.canal-team .stats-card {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 15px;
+    transition: transform 0.3s ease;
 }
 
-/* Gradient Overlay */
-.media-full-con .hero-section::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.1));
+.canal-team .stats-card:hover {
+    transform: translateY(-5px);
 }
 
-.media-full-con .hero-section .container {
-    margin: 10%;
-}
-/* Text Box */
-.media-full-con .text-box {
-    background: rgba(255, 255, 255, 0.85);
-    padding: 30px;
-    border-radius: 8px;
-    max-width: 400px;
-    position: relative;
+.canal-team .stats-card svg
+{
+    color: #C8102E !important;
 }
 
-.media-full-con .text-box .title {
-    font-size: 28px;
-    font-weight: bold;
-    color: black;
+.canal-team .team-member {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
-.media-full-con .text-box .subtitle {
-    font-size: 16px;
-    color: #333;
+.canal-team .team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
-/* Red Bar */
-.media-full-con .bar {
-    display: inline-block;
-    width: 5px;
-    height: 24px;
-    background-color: red;
-    margin-right: 10px;
-}
-
-/* Play Button */
-.media-full-con .play-button {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-    position: relative;
-}
-
-/* Button Style */
-.media-full-con .play-btn {
-    width: 60px;
-    height: 60px;
-    background: rgba(0, 0, 0, 0.7);
-    border: none;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.3s;
-    position: relative;
-    z-index: 2;
-}
-
-.media-full-con .play-btn:hover {
-    background: rgba(0, 0, 0, 0.9);
-}
-
-/* Wave Animation (Always Running) */
-.media-full-con .play-btn::before,
-.media-full-con .play-btn::after {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-    opacity: 0;
-    animation: wave 1.5s infinite;
-    z-index: 1;
-}
-
-.media-full-con .play-btn::after {
-    animation-delay: 0.75s; /* Second wave delay */
-}
-
-@keyframes wave {
-    0% {
-        transform: scale(1);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1.8);
-        opacity: 0;
-    }
-}
-
-/* Video Modal */
-.media-full-con .video-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
+.canal-team .team-member img {
     width: 100%;
-    height: 100%;
-    background: rgba(34, 34, 34, 0.9); /* Dark background */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 250px;
+    object-fit: cover;
+}
+
+.canal-team .contact-info {
     opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-    z-index: 9;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
 }
 
-/* Video Container */
-.media-full-con .video-container {
-    position: relative;
-    background: black;
-    padding: 10px;
-    border-radius: 8px;
-}
-
-.media-full-con .video-container video {
-    width: 80vw;
-    max-width: 800px;
-    border-radius: 8px;
-}
-
-/* Show Modal */
-.media-full-con .video-modal.active {
+.canal-team .team-member:hover .contact-info {
     opacity: 1;
-    visibility: visible;
+    transform: translateY(0);
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .media-full-con .hero-section {
-        height: auto;
-        padding: 50px 20px;
-    }
+.canal-team .section-title {
+    position: relative;
+    padding-bottom: 20px;
+}
 
-    .media-full-con .text-box {
-        max-width: 100%;
-        text-align: center;
-    }
+.canal-team .section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: #C8102E;
+}
 
-    .media-full-con .play-button {
-        justify-content: center;
-        margin-bottom: 20px;
-    }
+.canal-team .stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #C8102E;
 }
 
 /* About page */

@@ -27,110 +27,9 @@
     
 </head>
 <body>
-  <!-- Top Nav bar -->
-  <!-- Top Header -->
-   <div class="top-header-con">
-    <div class="top-header">
-        <div class="container">
-            <div class="d-flex justify-content-end align-items-center">
-                <a href="#" class="nav-link">Join Our Team <i class="fas fa-external-link-alt ms-1"></i></a>
-                <a href="#" class="nav-link">Register <i class="fas fa-external-link-alt ms-1"></i></a>
-                <a href="#" class="nav-link">Find Sites</a>
-                <a href="#" class="nav-link">American Tower Corporate <i class="fas fa-external-link-alt ms-1"></i></a>
-                <div class="search-icon ms-3" id="searchToggle">
-                    <i class="fas fa-search"></i>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Search Bar -->
-    <div class="search-bar" id="searchBar">
-        <div class="container">
-            <div class="position-relative">
-                <input type="text" class="search-input" placeholder="Search...">
-                <span class="search-close" id="searchClose">
-                    <i class="fas fa-times"></i>
-                </span>
-            </div>
-        </div>
-    </div>
-</div>
-  <!-- Main nav bar -->
-  <nav class="navbar navbar-expand-lg navbar-light main-nav" style="background-color: #ffffff; height: 5rem;">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="assets/images/canal_logo.png" alt="Canal" width="150">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse bg-white w-100 p-3 rounded-3 justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="index.html" role="button">
-              Home
-              <i class="fa fa-home" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="About.html" role="button" aria-expanded="false">
-              About Us
-              <i class="fa fa-info-circle" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="javascript:" id="ServicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-              <i class="fa fa-question-circle" aria-hidden="true"></i>
-              <!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="ServicesDropdown">
-              <li><a class="dropdown-item" href="civil-work-service.html">Civil Work</a></li>
-              <li><a class="dropdown-item" href="#">Telecom Work</a></li>
-              <li><a class="dropdown-item" href="#">Acquisition</a></li>
-              <li><a class="dropdown-item" href="#">Power Connectivity Expertise</a></li>
-              <li><a class="dropdown-item" href="#">EHS & QUALITY</a></li>
-              <!-- <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="organization.html" role="button" aria-expanded="false">
-              Organization
-              <i class="fa fa-building" aria-hidden="true"></i>
-            </a>
-          </li>
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="ReferencesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              References
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="ReferencesDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.html"role="button" aria-expanded="false">
-                Gallery
-                <i class="fa fa-image" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="contact-us.html"role="button" aria-expanded="false">
-              Contact
-              <i class="fa fa-headphones" aria-hidden="true"></i>
-            </a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <button type="submit" class="btn btn-danger rounded-0 px-3 py-1 ms-5">Contact Us</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+    <!-- Main nav bar -->
+    <?php include_once './partials/header.php' ?>
 
   <!-- hero landing -->
   <div class="container-flued hero-landing">
@@ -442,44 +341,155 @@
     </div>
   </section>
 
-  <!-- Hear From Employees, media-full section -->
-<section class="media-full-con">
-    <div class="hero-section">
+  <section class="py-5 canal-team">
         <div class="container">
-            <div class="row align-items-center">
-                <!-- Left Side (Video Button) -->
-                <div class="col-md-7 d-flex m-5">
-                    <div class="play-button" id="playBtn">
-                        <button class="btn btn-lg play-btn">
-                            <svg width="24" height="24" fill="white" viewBox="0 0 16 16">
-                                <path d="M6.5 3.5v9l7-4.5-7-4.5z"/>
-                            </svg>
-                        </button>
-                        <span class="play-text m-4">Meet Our Team</span>
+            <h2 class="text-center section-title mb-5">Meet Our Team</h2>
+            
+            <!-- Stats Cards -->
+            <div class="row mb-5 g-4">
+                <div class="col-md-4">
+                    <div class="stats-card p-4 text-center h-100">
+                        <div class="stat-number">250+</div>
+                        <h3 class="h5">Expert Engineers and Skilled Technicians</h3>
+                        <p>At Canal Engineering Services, we take
+                        pride in our dedicated team of over 250
+                        expert engineers and skilled technicians.
+                        Our team members are highly qualified
+                        and possess extensive experience in the
+                        GSM infrastructure field.
+                        </p>
                     </div>
                 </div>
-                <!-- Right Side (Text Box) -->
                 <div class="col-md-4">
-                    <div class="text-box">
-                        <h2 class="title"><span class="bar"></span> Hear From Employees</h2>
-                        <p class="subtitle">See what employees have to say about working at American Tower.</p>
+                    <div class="stats-card p-4 text-center h-100">
+                        <i class="fas fa-star mb-3 fa-2x"></i>
+                        <h3 class="h5">Emphasizing Expertise</h3>
+                        <p>Our engineers are well-versed in the
+                        latest industry trends, ensuring that our
+                        projects incorporate cutting-edge
+                        solutions. The technical prowess of our
+                        skilled technicians enables the flawless
+                        execution of complex tasks, from
+                        structural installations to advanced
+                        technology integration.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stats-card p-4 text-center h-100">
+                        <i class="fas fa-certificate mb-3 fa-2x"></i>
+                        <h3 class="h5">Qualifications and Certifications</h3>
+                        <p>Our team holds relevant qualifications
+                        and certifications, demonstrating their
+                        competence in delivering quality GSM
+                        infrastructure solutions. Continuous
+                        training and development programs
+                        ensure that our professionals stay
+                        updated with industry standards and best
+                        practices.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Team Members -->
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-member shadow-sm">
+                        <img src="/assets/images/Canal_Managers/img-Firas-Barakat.png" alt="Firas Barakat">
+                        <div class="p-3">
+                            <h4 class="h5 mb-1">Firas Barakat</h4>
+                            <p class="text-muted mb-2">General Manager</p>
+                            <div class="contact-info">
+                                <p class="mb-1"><i class="fas fa-phone me-2"></i>+971 50 711 2940</p>
+                                <p class="mb-0"><i class="fas fa-envelope me-2"></i>barakat@canal-tel.com</p>
+                                <p class="mb-0"><i class="fa-brands fa-linkedin me-2"></i>linkedin.com/in/firas-barakat-33265a36</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-member shadow-sm">
+                        <img src="/assets/images/Canal_Managers/img-Mohamad-Taha.png" alt="Mohamad Taha">
+                        <div class="p-3">
+                            <h4 class="h5 mb-1">Mohamad Taha</h4>
+                            <p class="text-muted mb-2">HR Manager</p>
+                            <div class="contact-info">
+                                <p class="mb-1"><i class="fas fa-phone me-2"></i>+971 56 410 3442</p>
+                                <p class="mb-0"><i class="fas fa-envelope me-2"></i>mohammad.taha@canal-tel.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-member shadow-sm">
+                        <img src="/assets/images/Canal_Managers/img-walid-shakir.png" alt="walid shakir">
+                        <div class="p-3">
+                            <h4 class="h5 mb-1">walid shakir</h4>
+                            <p class="text-muted mb-2">Admin Manager</p>
+                            <div class="contact-info">
+                                <p class="mb-1"><i class="fas fa-phone me-2"></i>+971 56 313 1394</p>
+                                <p class="mb-0"><i class="fas fa-envelope me-2"></i>walid.shaker@Canal-tel.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-member shadow-sm">
+                        <img src="/assets/images/Canal_Managers/img-Moutaz-Ayasra.png" alt="Moutaz Ayasra">
+                        <div class="p-3">
+                            <h4 class="h5 mb-1">Moutaz Ayasra</h4>
+                            <p class="text-muted mb-2">Logistics Manager</p>
+                            <div class="contact-info">
+                                <p class="mb-1"><i class="fas fa-phone me-2"></i>+971 569 21 3377</p>
+                                <p class="mb-0"><i class="fas fa-envelope me-2"></i>Moutaz.ayasra@canal-tel.com</p>
+                                <p class="mb-0"><i class="fa-brands fa-linkedin me-2"></i>linkedin.com/in/moutaz-ayasra-82860aa2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-member shadow-sm">
+                        <img src="/assets/images/Canal_Managers/img-Ahmed-Keshk.png" alt="Ahmed Keshk">
+                        <div class="p-3">
+                            <h4 class="h5 mb-1">Ahmed Keshk</h4>
+                            <p class="text-muted mb-2">Civil Manager</p>
+                            <div class="contact-info">
+                                <p class="mb-1"><i class="fas fa-phone me-2"></i>+971 56 811 5528</p>
+                                <p class="mb-0"><i class="fas fa-envelope me-2"></i>ahmed.keshk@canal-tel.com</p>
+                                <p class="mb-0"><i class="fa-brands fa-linkedin me-2"></i>linkedin.com/in/ahmed-keshk-b2472637</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-member shadow-sm">
+                        <img src="/assets/images/Canal_Managers/img-Sadam-Khatab.png" alt="Sadam Khatab">
+                        <div class="p-3">
+                            <h4 class="h5 mb-1">Sadam Khatab</h4>
+                            <p class="text-muted mb-2">Telecom Manager</p>
+                            <div class="contact-info">
+                                <p class="mb-1"><i class="fas fa-phone me-2"></i>+971 54 321 0048</p>
+                                <p class="mb-0"><i class="fas fa-envelope me-2"></i>sadam.khatab@canal-tel.com</p>
+                                <p class="mb-0"><i class="fa-brands fa-linkedin me-2"></i>linkedin.com/in/sadam-khatab-739404174</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-member shadow-sm">
+                        <img src="/assets/images/Canal_Managers/img-Osama-Abd-alghafar.png" alt="Osama Abd alghafar">
+                        <div class="p-3">
+                            <h4 class="h5 mb-1">Osama Abd alghafar</h4>
+                            <p class="text-muted mb-2">Microwave Manager</p>
+                            <div class="contact-info">
+                                <p class="mb-1"><i class="fas fa-phone me-2"></i>+971 50 636 2390</p>
+                                <input class="mb-0"><i class="fas fa-envelope me-2"></i>osama.abdelgaffar@canal-tel.com</input>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-    <!-- Video Modal -->
-    <div id="videoModal" class="video-modal">
-        <div class="video-container">
-            <video id="videoPlayer" controls>
-                <source src="assets/video/US_Hero_Video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-    </div>
-</section>
-
+    </section>
 
 <!-- Contact Us Section -->
 <section class="contact-us-con">
@@ -488,11 +498,8 @@
           <div class="col-md-6 contact-us p-5">
               <h1 class="mb-4">Take the Next Step With Canal</h1>
               <div class="d-flex gap-3">
-                  <a href="#contact" class="cta-button text-decoration-none">
+                  <a href="/contact.php" class="cta-button text-decoration-none">
                       Contact Us <i class="fas fa-arrow-right ms-2"></i>
-                  </a>
-                  <a href="#careers" class="cta-button btn-joinToOurTeam text-decoration-none">
-                      Join Our Team <i class="fas fa-arrow-right ms-2"></i>
                   </a>
               </div>
           </div>
@@ -501,94 +508,7 @@
 </section>
 
 <!-- Footer -->
-<footer class="footer">
-  <div class="container">
-      <div class="row">
-          <div class="col-md-3 mb-4">
-              <img src="assets/images/Canal_logo_white.png" alt="Canal Logo" class="mb-3 canal-logo" width="150">
-              <p>U.S. Tower Headquarters<br>
-              10 Presidential Way<br>
-              Woburn, MA 01801<br>
-              877-ATC-SITE (877-282-7483)</p>
-              <a href="#linkedin" class="me-3">
-                  <i class="fab fa-linkedin fa-lg"></i>
-              </a>
-          </div>
-          
-          <div class="col-md-6">
-              <div class="row">
-                  <div class="col-sm-4 mb-4">
-                      <h6 class="text-uppercase mb-3">Quick Links</h6>
-                      <ul class="list-unstyled">
-                          <li class="mb-2"><a href="#assets">Assets & Solutions</a></li>
-                          <li class="mb-2"><a href="#industries">Industries</a></li>
-                          <li class="mb-2"><a href="#support">Our Customer Support</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-4 mb-4">
-                      <h6 class="text-uppercase mb-3">Resources</h6>
-                      <ul class="list-unstyled">
-                          <li class="mb-2"><a href="#landowners">Landowners</a></li>
-                          <li class="mb-2"><a href="#vendors">Vendors</a></li>
-                          <li class="mb-2"><a href="#media">Media Hub</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-4 mb-4">
-                      <h6 class="text-uppercase mb-3">Company</h6>
-                      <ul class="list-unstyled">
-                          <li class="mb-2"><a href="#faqs">FAQs</a></li>
-                          <li class="mb-2"><a href="#careers">Careers</a></li>
-                          <li class="mb-2"><a href="#media-relations">Media Relations <i class="fas fa-arrow-right ms-1"></i></a></li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-          
-          <div class="col-md-3 mb-4">
-              <h6 class="text-uppercase mb-3">Join Our Mailing List</h6>
-              <form id="subscribeForm">
-                  <div class="mb-3">
-                      <input type="text" class="form-control" placeholder="First Name *" required>
-                  </div>
-                  <div class="mb-3">
-                      <input type="text" class="form-control" placeholder="Last Name *" required>
-                  </div>
-                  <div class="mb-3">
-                      <input type="email" class="form-control" placeholder="Email *" required>
-                  </div>
-                  <div class="recaptcha-container">
-                      <div class="form-check">
-                          <input class="form-check-input" type="checkbox" id="recaptcha">
-                          <label class="form-check-label" for="recaptcha">
-                              I'm not a robot
-                          </label>
-                      </div>
-                  </div>
-                  <div class="mb-3">
-                      <small>I accept <a href="#terms">Terms of Use</a> and <a href="#privacy">Privacy Policy</a></small>
-                  </div>
-                  <button type="submit" class="btn sign-up-btn text-white">SIGN UP</button>
-              </form>
-          </div>
-      </div>
-      
-      <div class="footer-bottom">
-          <div class="row">
-              <div class="col-md-6">
-                  <small>&copy; 2004-2025 by ATC TRS V LLC. All rights reserved</small>
-              </div>
-              <div class="col-md-6 text-md-end">
-                  <small>
-                      <a href="#legal" class="me-3">Legal</a>
-                      <a href="#privacy" class="me-3">Privacy Policy</a>
-                      <a href="#cookies" class="me-3">Cookie Preferences</a>
-                      <a href="#sitemap">Sitemap</a>
-                  </small>
-              </div>
-          </div>
-      </div>
-  </div>
-</footer>
+<?php include_once './partials/footer.php' ?>
 
 <!-- Javascript Files
   ================================================== -->

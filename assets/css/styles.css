@@ -4,3 +4,9 @@
 .bg-none {
     background: none !important;
 }
+
+.canal-logo {
+    background-color: aliceblue;
+    padding: 1%;
+    border-radius: 15%;
+}
