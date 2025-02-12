@@ -22,7 +22,8 @@
 ================================================== -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/all.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
     
 </head>
 <body>
@@ -67,7 +68,7 @@
       <div class="collapse navbar-collapse bg-white w-100 p-3 rounded-3 justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item dropdown">
-            <a class="nav-link" href="Index.html" role="button">
+            <a class="nav-link" href="index.html" role="button">
               Home
               <i class="fa fa-home" aria-hidden="true"></i>
             </a>
@@ -79,13 +80,13 @@
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="ServicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="javascript:" id="ServicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Services
               <i class="fa fa-question-circle" aria-hidden="true"></i>
               <!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
             </a>
             <ul class="dropdown-menu" aria-labelledby="ServicesDropdown">
-              <li><a class="dropdown-item" href="#">Civil Work</a></li>
+              <li><a class="dropdown-item" href="civil-work-service.html">Civil Work</a></li>
               <li><a class="dropdown-item" href="#">Telecom Work</a></li>
               <li><a class="dropdown-item" href="#">Acquisition</a></li>
               <li><a class="dropdown-item" href="#">Power Connectivity Expertise</a></li>
@@ -95,7 +96,7 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="#" role="button" aria-expanded="false">
+            <a class="nav-link" href="organization.html" role="button" aria-expanded="false">
               Organization
               <i class="fa fa-building" aria-hidden="true"></i>
             </a>
@@ -111,14 +112,14 @@
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li> -->
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="#"role="button" aria-expanded="false">
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html"role="button" aria-expanded="false">
                 Gallery
                 <i class="fa fa-image" aria-hidden="true"></i>
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="#"role="button" aria-expanded="false">
+            <a class="nav-link" href="contact-us.html"role="button" aria-expanded="false">
               Contact
               <i class="fa fa-headphones" aria-hidden="true"></i>
             </a>
@@ -149,23 +150,14 @@
           </p>
 
             <div class="container d-flex justify-content-start align-items-center py-4">
-              <a href="#" class="btn btn-custom btn-register me-3">
-                  Register for an Account
-                  <span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <path d="M9 18l6-6-6-6"/>
-                      </svg>
-                  </span>
-              </a>
-      
-              <a href="#" class="btn btn-custom btn-login">
-                  Log In to Your Account
-                  <span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <path d="M9 18l6-6-6-6"/>
-                      </svg>
-                  </span>
-              </a>
+                <a href="#" class="btn btn-custom btn-register me-3">
+                    Contact Us
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 18l6-6-6-6"/>
+                        </svg>
+                    </span>
+                </a>
           </div>
         </div>
       </div>
@@ -306,7 +298,7 @@
             <div class="row">
                 <!-- Experience Item 1 -->
                 <div class="col-md-3 col-6 experience-box">
-                    <h2>~<span class="counter" data-target="4834">4834</span></h2>
+                    <h2><span class="counter" data-target="4834">4834</span></h2>
                     <p>Finished Project</p>
                 </div>
 
@@ -318,7 +310,7 @@
 
                 <!-- Experience Item 3 -->
                 <div class="col-md-3 col-6 experience-box">
-                    <h2>~<span class="counter" data-target="280">280</span></h2>
+                    <h2><span class="counter" data-target="280">280</span></h2>
                     <p>Engineer & Techincan</p>
                 </div>
 
@@ -488,106 +480,6 @@
     </div>
 </section>
 
-<!-- recent news section -->
-<div class="recent-news-section container my-5">
-    <div class="row">
-        <!-- Left column (Image + Heading + Event Card) -->
-        <div class="col-lg-5 my-5 left-column">
-            <div class="mb-5">
-                <h2 class="section-header">Recent News and Upcoming Events</h2>
-                <a href="#" class="read-more-btn">Read More in Our Media Hub →</a>
-            </div>
-            <div class="media-image-container">
-                <img src="assets/images/rooftop_blog.png.webp" alt="News Image" class="media-image">
-            </div>
-
-
-            <div class="event-card mt-5">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="tags">
-                            <a href="" class="badge bg-white text-dark">Blog</a>
-                            <a href="" class="badge bg-white text-dark">5G</a>
-                            <a href="" class="badge bg-white text-dark">Broadcast</a>
-                            <a href="" class="badge bg-white text-dark">Rooftop</a>
-                            <a href="" class="badge bg-white text-dark">U.S.</a>
-                        </div>
-                        <h5 class="card-title">The Role of 5G and Beyond in Rooftop Leasing</h5>
-                        <p class="card-text">January 21, 2025</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Right column (Event List) -->
-        <!-- Right column (Event List) -->
-        <div class="col-lg-6 right-column">
-            <div class="event-card">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="tags">
-                            <a href="" class="badge bg-white text-dark">Blog</a>
-                            <a href="" class="badge bg-white text-dark">Towers</a>
-                            <a href="" class="badge bg-white text-dark">Rural Broadband</a>
-                            <a href="" class="badge bg-white text-dark">U.S.</a>
-                        </div>
-                        <h5 class="card-title">Chapter 4 | Understanding the Full Picture: Ease Your Network Rollout With the Right Partner | E-book</h5>
-                        <p class="card-text">December 2, 2024</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="event-card">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="tags">
-                            <a href="" class="badge bg-white text-dark">Blog</a>
-                            <a href="" class="badge bg-white text-dark">CoreSite</a>
-                            <a href="" class="badge bg-white text-dark">Data Centers</a>
-                            <a href="" class="badge bg-white text-dark">Edge</a>
-                            <a href="" class="badge bg-white text-dark">Industry</a>
-                            <a href="" class="badge bg-white text-dark">U.S.</a>
-                        </div>
-                        <h5 class="card-title">Infrastructure Buildout Perspectives | Inside Towers</h5>
-                        <p class="card-text">January 9, 2025</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="event-card">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="tags">
-                            <a href="" class="badge bg-white text-dark">Blog</a>
-                            <a href="" class="badge bg-white text-dark">Data Centers</a>
-                            <a href="" class="badge bg-white text-dark">Edge</a>
-                            <a href="" class="badge bg-white text-dark">U.S.</a>
-                        </div>
-                        <h5 class="card-title">Working to Ensure Widespread Connectivity, Enhanced User Experiences</h5>
-                        <p class="card-text">December 4, 2024</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="event-card">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="tags">
-                            <a href="" class="badge bg-white text-dark">Blog</a>
-                            <a href="" class="badge bg-white text-dark">Data Centers</a>
-                            <a href="" class="badge bg-white text-dark">Edge</a>
-                            <a href="" class="badge bg-white text-dark">U.S.</a>
-                        </div>
-                        <h5 class="card-title">American Tower Begins Vertical Construction of its First Edge Data Center in Raleigh, North Carolina</h5>
-                        <p class="card-text">November 19, 2024</p>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-</div>
 
 <!-- Contact Us Section -->
 <section class="contact-us-con">

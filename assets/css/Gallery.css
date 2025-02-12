@@ -1,0 +1,141 @@
+.gallery {
+    padding: 2em;
+    min-height: 120vh;
+}
+
+.gallery .buttons {
+    padding: 2em 0 6em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery .buttons button {
+    margin: 1em;
+    padding: 0.7em 1.5em;
+    font-size: 1.1em;
+    border: none;
+    background: #dc3545;
+    color: #fff;
+    border: 2px solid #dc3545;
+    border-radius: 0.2em;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.gallery .buttons button:hover,
+.gallery .buttons .btn-clicked {
+    background: #fff;
+    color: #dc3545;
+}
+
+.gallery .images {
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.gallery .images img {
+    width: 25em;
+    margin: 1em;
+    border-radius: 0.2em;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.gallery .images .img-expanded {
+    width: 25em;
+    margin: 1em;
+}
+
+.gallery .images .img-shrink {
+    width: 0em;
+    margin: -1em;
+}
+
+/* Modal styles */
+#imageModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+#imageModal .modal-content {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+#imageModal img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.2em;
+}
+
+#imageModal .close,
+#imageModal .next,
+#imageModal .prev {
+    position: absolute;
+    top: 50%;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+#imageModal .close {
+    top: 20px;
+}
+
+#imageModal .close {
+    right: 20px;
+}
+
+#imageModal .next {
+    right: 5%;
+}
+
+#imageModal .prev {
+    left: 5%;
+}
+
+/* Responsive design */
+@media screen and (max-width: 1439px) {
+    .gallery .images {
+        max-width: 896px;
+    }
+}
+
+@media screen and (max-width: 986px) {
+    .gallery .images {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .gallery .images img {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gallery .buttons button {
+        width: 100%;
+        display: block;
+    }
+
+    .gallery .images .img-expanded,
+    .gallery .images img {
+        width: 100%;
+    }
+}

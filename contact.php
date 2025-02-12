@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="assets/css/all.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
     
 </head>
 <body>
@@ -139,26 +140,12 @@
         <source src="assets/video/US_Hero_Video.mp4" type="video/mp4">
       </video>
       <div class="home-content container d-flex justify-content-between">
-        <h1>Why Canal Engineering<br> Services Co</h1>
+        <h1>Get in Touch</h1>
         <div>
             <p>
-            One of the leading telecom companies in the middle east <br>
-            specialized in the design, turnkey construction, and
-            maintenance of wireless communication sites and core
-            networks, Building Automation Systems (BAS), Industrial
-            Automation, and IT infrastructure.
+            Whether you're currently working with us and need information or hope to partner with us and want to get started, reach out today—our teams are ready to help. Experience the Canal Engineering Services Co difference.
           </p>
 
-            <div class="container d-flex justify-content-start align-items-center py-4">
-              <a href="#" class="btn btn-custom btn-register me-3">
-                  Contact Us
-                  <span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <path d="M9 18l6-6-6-6"/>
-                      </svg>
-                  </span>
-              </a>
-          </div>
         </div>
       </div>
     </div>
@@ -175,19 +162,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8">
-                    <h2 class="network-heading">Building a More Connected World</h2>
+                    <h2 class="network-heading">How Can We Help?</h2>
                     <p class="network-text ps-4">
-                        Our mission to utilize the management long experience and staff skills in the field of
-                        GSM and automation to furnish the best engineering services that meets and
-                        exceeds client’s expectations, KPIs and standards.
+                    Please carefully fill out the form below to ensure your inquiry is directed to the appropriate Canal Engineering Services Co team for attention. 
                     </p>
-                    <a href="#" class="cta-link">
-                        Log In or Sign Up to Find Sites 
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                            <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
-                    </a>
                 </div>
                 <div class="col-lg-2"></div>
             </div>
@@ -195,152 +173,100 @@
     </div>
 </section>
 
-<!-- about-us-section -->
-<section class="diagonal-section container mb-5">
-    <div class="diagonal-bg"></div>
-    <div class="red-line"></div>
-    
-    <div class="content-section">
+<!-- Location Cards -->
+<section class="py-5">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <h2 class="network-heading">About Us</h2>
-                    <p class="network-text ps-4">
-                        CANAL Telecom Engineering, with over 24 years of proven success records has become a
-                        leader in the telecommunications technical services sector in the Middle East region, Our
-                        services include project management, system integration, system design, installation,
-                        commissioning and maintenance, and acceptance on turnkey basis for GSM, 5G ,fiber, MW
-                        links, Power system, steel fabrication in addition to automation and control systems.
-                    </p>
-                    <a href="#" class="cta-link">
-                        Log In or Sign Up to Find Sites 
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                            <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
-                    </a>
+            <div class="row g-4">
+                <!-- New York Office -->
+                <div class="col-md-4">
+                    <div class="card location-card h-100">
+                        <div class="card-body text-center">
+                            <div class="map-container mb-3">
+                                <img src="assets/images/tomooh-tower.webp" alt="New York Office Map" class="rounded">
+                            </div>
+                            <i class="fas fa-building contact-icon"></i>
+                            <h3 class="card-title h4">Uited Arab Emirates Office</h3>
+                            <p class="arabic-name">المكتب الرئيسي - الإمارات</p>
+                            <p class="card-text">Office 3/1308 BLDC#12, Floor 27<br>Tomooh Tower, Marina SQR<br>Reem Island Abu Dhabi</p>
+                            <p class="mb-2"><i class="fas fa-phone-alt me-2"></i>+971 507112940</p>
+                            <p class="mb-0"><i class="fas fa-envelope me-2"></i>barakat@canal-tel.com</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
 
+                <!-- London Office -->
+                <div class="col-md-4">
+                    <div class="card location-card h-100">
+                        <div class="card-body text-center">
+                            <div class="map-container mb-3">
+                                <img src="assets/images/Jordan-Amman-view.jpg" alt="London Office Map" class="rounded">
+                            </div>
+                            <i class="fas fa-building contact-icon"></i>
+                            <h3 class="card-title h4">Jordan Office</h3>
+                            <p class="arabic-name">مكتب الأردن</p>
+                            <p class="card-text">7A Um Assumaq ST<br>Um Assumaq<br> Amman – Jordan</p>
+                            <p class="mb-2"><i class="fas fa-phone-alt me-2"></i>+962 79 756 0900</p>
+                            <p class="mb-0"><i class="fas fa-envelope me-2"></i>mousa@canal-tel.net</p>
+                        </div>
+                    </div>
+                </div>
 
-<!-- Solution section -->
- <div class="solutions-con about-con p-5" style="background-color: #f3f4f7; background-image: none;">
-  <div class="container p-5">
-    <!-- Previous header section remains the same -->
-    <div class="solutions-header" style="color: #000; text-align: center;">
-        <h1 class="border-0">Our Global Positioning Pillars</h1>
-    </div>
-
-    <div class="solutions-grid" style="background-color: #f3f4f7;">
-        <div class="row g-0">
-            <!-- Towers and Rooftops -->
-            <div class="col-12 col-lg-6">
-                <div class="solution-card">
-                    <div>
-                        <h3 class="solution-title">Civil Work & SAQ</h3>
-                        <p class="solution-description">Canal expert Civil team rolls out big projects
-                            related to new Tower installations and Tower
-                            strengthens for all types. Along with supplying
-                            all required materials in Civil work.</p>
+                <!-- Singapore Office -->
+                <div class="col-md-4">
+                    <div class="card location-card h-100">
+                        <div class="card-body text-center">
+                            <div class="map-container mb-3">
+                                <img src="assets/images/6th_October_Bridge.png" alt="Singapore Office Map" class="rounded">
+                            </div>
+                            <i class="fas fa-building contact-icon"></i>
+                            <h3 class="card-title h4">EGYPT Office</h3>
+                            <p class="arabic-name">مكتب مصر</p>
+                            <p class="card-text">OFFICES 212, 213<br>6 OCTOBER CITY, A1/18<br>CAIRO - EGYPT</p>
+                            <p class="mb-2"><i class="fas fa-phone-alt me-2"></i>+20 112 222 1662</p>
+                            <p class="mb-0">Fax: </i>+20238352994</p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <!-- Other cards follow the same pattern -->
-            <!-- Services -->
-            <div class="col-12 col-lg-6">
-                <div class="solution-card">
-                    <div>
-                        <h3 class="solution-title">Power Work</h3>
-                        <p class="solution-description">Canal Power team is performing all power
-                            system Installation related to Mobile networks
-                            sites.</p>
+    <!-- Contact Form Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <h2 class="text-center mb-4">Send Us a Message</h2>
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="name" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" class="form-control" id="subject" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg px-5">Send Message</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-            <!-- Services -->
-            <div class="col-12 col-lg-6">
-                <div class="solution-card">
-                    <div>
-                        <h3 class="solution-title">Telecom Work</h3>
-                        <p class="solution-description">Canal specialized in design, turnkey
-                            construction and maintenance of wireless
-                            communication sites and core network, Building
-                            Automation Systems (BAS), Industrial
-                            Automation and IT infrastructure.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Remaining cards follow the same pattern -->
-            <!-- Continue with the other 4 cards using the same structure -->
-            
         </div>
-    </div>
-  </div>
-</div>
+    </section>
 
-<!-- clients section -->
-<div class="container my-5">
-    <div class="row align-items-center" id="clients-header" style="text-align: center; top: 100px;">
-        <h1 class="border-0">Hear From Our Partners</h1>
-    </div>
-    <div id="testimonialCarousel" class="carousel slide text-center row align-items-center" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <!-- Slide 1 -->
-            <div class="carousel-item active">
-                <div class="quote-icon">❝</div>
-                <p class="testimonial-text">
-                    “We have a great relationship working with American Tower and as we're expanding our network, it was natural to consider them, especially since they have hundreds of towers to select from in the right locations and heights that fit our needs."
-                </p>
-                <p class="author">— Chris Daniels • President and CEO</p>
-                <p class="text-muted">Watch Communications</p>
-            </div>
-            <!-- Slide 2 -->
-            <div class="carousel-item">
-                <div class="quote-icon">❝</div>
-                <p class="testimonial-text">
-                    “American Tower has been instrumental in helping us scale our network efficiently, ensuring we reach the right locations with the best infrastructure."
-                </p>
-                <p class="author">— John Doe • CTO</p>
-                <p class="text-muted">Tech Solutions Inc.</p>
-            </div>
-        </div>
-
-        <!-- Previous button -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        
-        <!-- Next button -->
-        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</div>
-
-<!-- Contact Us Section -->
-<section class="contact-us-con">
-  <div class="container">
-      <div class="row">
-          <div class="col-md-6 contact-us p-5">
-              <h1 class="mb-4">Take the Next Step With Canal</h1>
-              <div class="d-flex gap-3">
-                  <a href="#contact" class="cta-button text-decoration-none">
-                      Contact Us <i class="fas fa-arrow-right ms-2"></i>
-                  </a>
-                  <a href="#careers" class="cta-button btn-joinToOurTeam text-decoration-none">
-                      Join Our Team <i class="fas fa-arrow-right ms-2"></i>
-                  </a>
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
 
 <!-- Footer -->
 <footer class="footer">
@@ -439,5 +365,6 @@
   
     <!-- Template custom -->
   <script src="assets/js/script.js"></script>
+  <script src="assets/js/contact.js"></script>
 </body>
 </html>

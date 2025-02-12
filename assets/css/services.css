@@ -1,0 +1,105 @@
+/* civil-work-service section */
+
+.red-bar {
+    /* width: 4px;
+    height: 60px;
+    background-color: #dc3545;
+    margin-right: 20px; */
+}
+
+.main-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    border-left: thick #E31837 solid;
+    padding-left: 20px;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.feature-text {
+    color: #000;
+    line-height: 1.6;
+}
+
+.intro-text {
+    color: #000;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+}
+
+.features-section {
+    padding: 4rem 0;
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2rem;
+    }
+    
+    .feature-box {
+        margin-bottom: 2rem;
+    }
+}
+
+/* how we do it section or Wrapper section */
+.wrapper{
+    width:70%;
+}
+  @media(max-width:992px){
+   .wrapper{
+    width:100%;
+  } 
+}
+
+.wrapper .civil-work-header {
+    margin: 10% 0;
+    border-left: thick #E31837 solid;
+    padding-left: 20px;
+}
+
+.wrapper .panel-heading {
+    padding: 0;
+    border:0;
+}
+.wrapper .panel-title>a, .panel-title>a:active{
+    display:block;
+    padding:15px;
+    color:#555;
+    font-size:16px;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    word-spacing:3px;
+    text-decoration:none;
+}
+.wrapper .panel-heading  a:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    transition: all 0.5s;
+}
+.wrapper .panel-heading.active a:before {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+} 
+.wrapper .custom-list {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.wrapper .custom-list li {
+    padding: 10px;
+    border-left: 4px solid #007bff; /* Blue left border */
+    margin-bottom: 8px;
+    background: #f8f9fa; /* Light gray background */
+    border-radius: 5px;
+    font-weight: 500;
+}
