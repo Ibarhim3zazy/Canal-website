@@ -49,7 +49,7 @@
           </p>
 
             <div class="container d-flex justify-content-start align-items-center py-4">
-              <a href="#" class="btn btn-custom btn-register me-3">
+              <a href="contact.php" class="btn btn-custom btn-register me-3">
                   Contact Us
                   <span class="icon">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -80,13 +80,13 @@
                         GSM and automation to furnish the best engineering services that meets and
                         exceeds client’s expectations, KPIs and standards.
                     </p>
-                    <a href="#" class="cta-link">
+                    <!-- <a href="#" class="cta-link">
                         Log In or Sign Up to Find Sites 
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                             <polyline points="12 5 19 12 12 19"></polyline>
                         </svg>
-                    </a>
+                    </a> -->
                 </div>
                 <div class="col-lg-2"></div>
             </div>
@@ -111,13 +111,13 @@
                         commissioning and maintenance, and acceptance on turnkey basis for GSM, 5G ,fiber, MW
                         links, Power system, steel fabrication in addition to automation and control systems.
                     </p>
-                    <a href="#" class="cta-link">
+                    <!-- <a href="#" class="cta-link">
                         Log In or Sign Up to Find Sites 
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                             <polyline points="12 5 19 12 12 19"></polyline>
                         </svg>
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
@@ -223,23 +223,8 @@
 </div>
 
 <!-- Contact Us Section -->
-<section class="contact-us-con">
-  <div class="container">
-      <div class="row">
-          <div class="col-md-6 contact-us p-5">
-              <h1 class="mb-4">Take the Next Step With Canal</h1>
-              <div class="d-flex gap-3">
-                  <a href="#contact" class="cta-button text-decoration-none">
-                      Contact Us <i class="fas fa-arrow-right ms-2"></i>
-                  </a>
-                  <a href="#careers" class="cta-button btn-joinToOurTeam text-decoration-none">
-                      Join Our Team <i class="fas fa-arrow-right ms-2"></i>
-                  </a>
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
+<?php include_once './partials/master/contact-us.php' ?>
+
 
   <!-- Footer -->
   <?php include_once './partials/master/footer.php' ?>
