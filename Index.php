@@ -16,7 +16,7 @@
 
 <!-- Favicon
 ================================================== -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="./assets/images/canal_logo.png" href="images/favicon.png">
 
 <!-- CSS
 ================================================== -->
@@ -366,7 +366,7 @@
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6">
                     <div class="team-member shadow-sm">
-                        <img src="/assets/images/Canal_Managers/img-Firas-Barakat.png" alt="Firas Barakat">
+                        <img src="./assets/images/Canal_Managers/img-Firas-Barakat.png" alt="Firas Barakat">
                         <div class="p-3">
                             <h4 class="h5 mb-1">Firas Barakat</h4>
                             <p class="text-muted mb-2">General Manager</p>
@@ -380,7 +380,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="team-member shadow-sm">
-                        <img src="/assets/images/Canal_Managers/img-Mohamad-Taha.png" alt="Mohamad Taha">
+                        <img src="./assets/images/Canal_Managers/img-Mohamad-Taha.png" alt="Mohamad Taha">
                         <div class="p-3">
                             <h4 class="h5 mb-1">Mohamad Taha</h4>
                             <p class="text-muted mb-2">HR Manager</p>
@@ -393,7 +393,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="team-member shadow-sm">
-                        <img src="/assets/images/Canal_Managers/img-walid-shakir.png" alt="walid shakir">
+                        <img src="./assets/images/Canal_Managers/img-walid-shakir.png" alt="walid shakir">
                         <div class="p-3">
                             <h4 class="h5 mb-1">walid shakir</h4>
                             <p class="text-muted mb-2">Admin Manager</p>
@@ -406,7 +406,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="team-member shadow-sm">
-                        <img src="/assets/images/Canal_Managers/img-Moutaz-Ayasra.png" alt="Moutaz Ayasra">
+                        <img src="./assets/images/Canal_Managers/img-Moutaz-Ayasra.png" alt="Moutaz Ayasra">
                         <div class="p-3">
                             <h4 class="h5 mb-1">Moutaz Ayasra</h4>
                             <p class="text-muted mb-2">Logistics Manager</p>
@@ -420,7 +420,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="team-member shadow-sm">
-                        <img src="/assets/images/Canal_Managers/img-Ahmed-Keshk.png" alt="Ahmed Keshk">
+                        <img src="./assets/images/Canal_Managers/img-Ahmed-Keshk.png" alt="Ahmed Keshk">
                         <div class="p-3">
                             <h4 class="h5 mb-1">Ahmed Keshk</h4>
                             <p class="text-muted mb-2">Civil Manager</p>
@@ -434,7 +434,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="team-member shadow-sm">
-                        <img src="/assets/images/Canal_Managers/img-Sadam-Khatab.png" alt="Sadam Khatab">
+                        <img src="./assets/images/Canal_Managers/img-Sadam-Khatab.png" alt="Sadam Khatab">
                         <div class="p-3">
                             <h4 class="h5 mb-1">Sadam Khatab</h4>
                             <p class="text-muted mb-2">Telecom Manager</p>
@@ -448,7 +448,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="team-member shadow-sm">
-                        <img src="/assets/images/Canal_Managers/img-Osama-Abd-alghafar.png" alt="Osama Abd alghafar">
+                        <img src="./assets/images/Canal_Managers/img-Osama-Abd-alghafar.png" alt="Osama Abd alghafar">
                         <div class="p-3">
                             <h4 class="h5 mb-1">Osama Abd alghafar</h4>
                             <p class="text-muted mb-2">Microwave Manager</p>
