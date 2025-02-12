@@ -20,11 +20,11 @@
 
 <!-- CSS
 ================================================== -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/all.min.css">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="stylesheet" href="assets/css/contact.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/contact.css">
     
 </head>
 <body>
@@ -36,7 +36,7 @@
   <div class="container-flued hero-landing">
     <div class="home">
       <video muted loop autoplay>
-        <source src="assets/video/US_Hero_Video.mp4" type="video/mp4">
+        <source src="./assets/video/US_Hero_Video.mp4" type="video/mp4">
       </video>
       <div class="home-content container d-flex justify-content-between">
         <h1>Contact Us</h1>
@@ -89,7 +89,7 @@
                     <div class="card location-card h-100">
                         <div class="card-body text-center">
                             <div class="map-container mb-3">
-                                <img src="assets/images/tomooh-tower.webp" alt="New York Office Map" class="rounded">
+                                <img src="./assets/images/tomooh-tower.webp" alt="New York Office Map" class="rounded">
                             </div>
                             <i class="fas fa-building contact-icon"></i>
                             <h3 class="card-title h4">Uited Arab Emirates Office</h3>
@@ -106,7 +106,7 @@
                     <div class="card location-card h-100">
                         <div class="card-body text-center">
                             <div class="map-container mb-3">
-                                <img src="assets/images/Jordan-Amman-view.jpg" alt="London Office Map" class="rounded">
+                                <img src="./assets/images/Jordan-Amman-view.jpg" alt="London Office Map" class="rounded">
                             </div>
                             <i class="fas fa-building contact-icon"></i>
                             <h3 class="card-title h4">Jordan Office</h3>
@@ -123,7 +123,7 @@
                     <div class="card location-card h-100">
                         <div class="card-body text-center">
                             <div class="map-container mb-3">
-                                <img src="assets/images/6th_October_Bridge.png" alt="Singapore Office Map" class="rounded">
+                                <img src="./assets/images/6th_October_Bridge.png" alt="Singapore Office Map" class="rounded">
                             </div>
                             <i class="fas fa-building contact-icon"></i>
                             <h3 class="card-title h4">EGYPT Office</h3>
@@ -181,11 +181,11 @@
 
 <!-- Javascript Files
   ================================================== -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/all.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/all.min.js"></script>
   
     <!-- Template custom -->
-  <script src="assets/js/script.js"></script>
-  <script src="assets/js/contact.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/contact.js"></script>
 </body>
 </html>

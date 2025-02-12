@@ -8,10 +8,10 @@
                 <div class="col-lg-6">
                     <div class="image-stack">
                         <div class="img-container">
-                          <img src="assets/images/chicago_night_2.jpg.webp" alt="City Network" class="image-city">
+                          <img src="./assets/images/chicago_night_2.jpg.webp" alt="City Network" class="image-city">
                         </div>
                         
-                        <img src="assets/images/gettyimages_1080277602.jpg.webp" alt="Team Meeting" class="image-people">
+                        <img src="./assets/images/gettyimages_1080277602.jpg.webp" alt="Team Meeting" class="image-people">
                     </div>
                 </div>
                 <div class="col-lg-6">

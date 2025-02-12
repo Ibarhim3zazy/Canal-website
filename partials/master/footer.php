@@ -2,7 +2,7 @@
   <div class="container">
       <div class="row">
           <div class="col-md-6 mb-4">
-              <img src="assets/images/Canal_logo.png" alt="Canal Logo" class="mb-3 canal-logo" width="150">
+              <img src="./assets/images/canal_logo.png" alt="Canal Logo" class="mb-3 canal-logo" width="150">
               <p>Canal Engineering Services Co Headquarters<br>
               Office 3/1308 BLDC#12, Floor 27<br>
               Tomooh Tower, Marina SQR<br>

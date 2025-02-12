@@ -20,11 +20,11 @@
 
 <!-- CSS
 ================================================== -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/all.min.css">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="stylesheet" href="assets/css/organization.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/organization.css">
     
 </head>
 <body>
@@ -35,7 +35,7 @@
   <div class="container-flued hero-landing">
     <div class="home">
       <video muted loop autoplay>
-        <source src="assets/video/US_Hero_Video.mp4" type="video/mp4">
+        <source src="./assets/video/US_Hero_Video.mp4" type="video/mp4">
       </video>
       <div class="home-content container d-flex justify-content-between">
         <h1>Why Canal Engineering<br> Services Co</h1>
@@ -105,7 +105,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <h2 class="network-heading">Canal teams</h2>
-                    <img src="assets/images/Org_Overall_Staff.png" class="img-full-screen" width="100%" height="100%" alt="Canal staff">
+                    <img src="./assets/images/Org_Overall_Staff.png" class="img-full-screen" width="100%" height="100%" alt="Canal staff">
 
                     <!-- <a href="#" class="cta-link">
                         Log In or Sign Up to Find Sites 
@@ -226,13 +226,13 @@
 
 <!-- Javascript Files
   ================================================== -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/all.min.js"></script>
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/all.min.js"></script>
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
   
     <!-- Template custom -->
-  <script src="assets/js/script.js"></script>
-  <script src="assets/js/organization.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/organization.js"></script>
   
 </body>
 </html>

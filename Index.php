@@ -20,10 +20,10 @@
 
 <!-- CSS
 ================================================== -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/all.min.css">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
     
 </head>
 <body>
@@ -35,7 +35,7 @@
   <div class="container-flued hero-landing">
     <div class="home">
       <video muted loop autoplay>
-        <source src="assets/video/US_Hero_Video.mp4" type="video/mp4">
+        <source src="./assets/video/US_Hero_Video.mp4" type="video/mp4">
       </video>
       <div class="home-content container d-flex justify-content-between">
         <h1>Canal Engineering<br> Services Co</h1>
@@ -101,7 +101,7 @@
                       <!-- <button class="btn btn-outline-light">See How We Support MNOs →</button> -->
                   </div>
                   <div class="img-container-slider">
-                    <img src="assets/images/energy_providers.jpg.webp" alt="Mobile Networks" class="slide-image">
+                    <img src="./assets/images/energy_providers.jpg.webp" alt="Mobile Networks" class="slide-image">
                   </div>
               </div>
           </div>
@@ -471,10 +471,10 @@
 
 <!-- Javascript Files
   ================================================== -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/all.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/all.min.js"></script>
   
     <!-- Template custom -->
-  <script src="assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 </html>
