@@ -29,7 +29,7 @@
     </head>
     <body>
       <!-- Main nav bar -->
-    <?php include_once './partials/header.php' ?>
+    <?php include_once './partials/master/header.php' ?>
     
       <!-- hero landing -->
       <div class="container-flued hero-landing">
@@ -157,7 +157,7 @@
   </section>
   
   <!-- Footer -->
-<?php include_once './partials/footer.php' ?>
+<?php include_once './partials/master/footer.php' ?>
   
   <!-- Javascript Files
     ================================================== -->

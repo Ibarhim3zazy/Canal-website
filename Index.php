@@ -29,7 +29,7 @@
 <body>
 
     <!-- Main nav bar -->
-    <?php include_once './partials/header.php' ?>
+    <?php include_once './partials/master/header.php' ?>
 
   <!-- hero landing -->
   <div class="container-flued hero-landing">
@@ -49,7 +49,7 @@
           </p>
 
             <div class="container d-flex justify-content-start align-items-center py-4">
-                <a href="#" class="btn btn-custom btn-register me-3">
+                <a href="./contact.php" class="btn btn-custom btn-register me-3">
                     Contact Us
                     <span class="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -88,8 +88,8 @@
                         GSM and automation to furnish the best engineering services that meets and
                         exceeds client’s expectations, KPIs and standards.
                     </p>
-                    <a href="#" class="cta-link">
-                        Log In or Sign Up to Find Sites 
+                    <a href="./about.php" class="cta-link">
+                        See more about us
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                             <polyline points="12 5 19 12 12 19"></polyline>
@@ -152,7 +152,9 @@
                         work and the results we achieve.</p>
                       <!-- <button class="btn btn-outline-light">Learn More →</button> -->
                   </div>
-                  <img src="https://via.placeholder.com/400x300" alt="Digital Infrastructure" class="slide-image">
+                  <div class="img-container-slider">
+                    <img src="./assets/images/pexels-troy-squillaci-2525871.jpg" alt="Digital Infrastructure" class="slide-image">
+                  </div>
               </div>
           </div>
       </div>
@@ -165,9 +167,11 @@
                       <h2>Our values</h2>
                       <p>Adherence to engineering codes of ethics and professional
                         conducts.</p>
-                      <button class="btn btn-outline-light">Discover Solutions →</button>
+                      <!-- <button class="btn btn-outline-light">Discover Solutions →</button> -->
                   </div>
-                  <img src="https://via.placeholder.com/400x300" alt="Smart Solutions" class="slide-image">
+                  <div class="img-container-slider">
+                      <img src="./assets/images/palm.jpg" alt="Smart Solutions" class="slide-image">
+                  </div>
               </div>
           </div>
       </div>
@@ -178,9 +182,11 @@
                   <div class="slide-text">
                       <h2>Our values</h2>
                       <p>Delivery on what is Promised ,as promised.</p>
-                      <button class="btn btn-outline-light">Discover Solutions →</button>
+                      <!-- <button class="btn btn-outline-light">Discover Solutions →</button> -->
                   </div>
-                  <img src="https://via.placeholder.com/400x300" alt="Smart Solutions" class="slide-image">
+                  <div class="img-container-slider">
+                      <img src="./assets/images/image_194.png" alt="Smart Solutions" class="slide-image">
+                  </div>
               </div>
           </div>
       </div>
@@ -239,12 +245,12 @@
         links, Power system, steel fabrication in addition to automation and control systems.
     </p>
 
-    <a href="#" class="view-all-link">
+    <!-- <a href="#" class="view-all-link">
         View All Our Infrastructure Solutions and Services 
         <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M5 12h14M12 5l7 7-7 7"/>
         </svg>
-    </a>
+    </a> -->
 
     <div class="solutions-grid">
         <div class="row g-0">
@@ -508,7 +514,7 @@
 </section>
 
 <!-- Footer -->
-<?php include_once './partials/footer.php' ?>
+<?php include_once './partials/master/footer.php' ?>
 
 <!-- Javascript Files
   ================================================== -->

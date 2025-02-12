@@ -28,8 +28,8 @@
 </head>
 <body>
   
-  <!-- Main nav bar -->
-  <?php include_once './partials/header.php' ?>
+<!-- Main nav bar -->
+<?php include_once './partials/master/header.php' ?>
 
   <!-- hero landing -->
   <div class="container-flued hero-landing">
@@ -241,8 +241,8 @@
   </div>
 </section>
 
-<!-- Footer -->
-<?php require_once 'partials/footer.php' ?>
+  <!-- Footer -->
+  <?php include_once './partials/master/footer.php' ?>
 
 <!-- Javascript Files
   ================================================== -->
