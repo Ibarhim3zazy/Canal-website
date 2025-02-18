@@ -7,8 +7,8 @@
               Office 3/1308 BLDC#12, Floor 27<br>
               Tomooh Tower, Marina SQR<br>
               Reem Island Abu Dhabi<br>
-              <i class="fas fa-phone-alt me-2"></i>+971 507112940<br>
-              <i class="fas fa-envelope me-2"></i>barakat@canal-tel.com<br>
+              <a href="tel:+971 50 711 2940"><i class="fas fa-phone-alt me-2"></i>+971 50 711 2940</a><br>
+              <a href="mailto:barakat@canal-tel.com"><i class="fas fa-envelope me-2"></i>barakat@canal-tel.com</a><br>
             </p>
               <!-- <a href="#linkedin" class="me-3">
                   <i class="fab fa-linkedin fa-lg"></i>

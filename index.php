@@ -371,9 +371,9 @@
                             <h4 class="h5 mb-1">Firas Barakat</h4>
                             <p class="text-muted mb-2">General Manager</p>
                             <div class="contact-info">
-                                <p class="mb-1"><i class="fas fa-phone me-2"></i>+971 50 711 2940</p>
-                                <p class="mb-0"><i class="fas fa-envelope me-2"></i>barakat@canal-tel.com</p>
-                                <p class="mb-0"><i class="fa-brands fa-linkedin me-2"></i>linkedin.com/in/firas-barakat-33265a36</p>
+                                <a href="tel:+971 50 711 2940" class="mb-1"><i class="fas fa-phone me-2"></i>+971 50 711 2940</a>
+                                <a href="mailto:barakat@canal-tel.com" class="mb-0"><i class="fas fa-envelope me-2"></i>barakat@canal-tel.com</a>
+                                <a href="https://linkedin.com/in/firas-barakat-33265a36" target="_blank" class="mb-0"><i class="fa-brands fa-linkedin me-2"></i>linkedin.com/in/firas-barakat-33265a36</a>
                             </div>
                         </div>
                     </div>
@@ -385,8 +385,8 @@
                             <h4 class="h5 mb-1">Mohamad Taha</h4>
                             <p class="text-muted mb-2">HR Manager</p>
                             <div class="contact-info">
-                                <p class="mb-1"><i class="fas fa-phone me-2"></i>+971 56 410 3442</p>
-                                <p class="mb-0"><i class="fas fa-envelope me-2"></i>mohammad.taha@canal-tel.com</p>
+                                <a href="tel:+971 56 410 3442" class="mb-1"><i class="fas fa-phone me-2"></i>+971 56 410 3442</a>
+                                <a href="mailto:mohammad.taha@canal-tel.com" class="mb-0"><i class="fas fa-envelope me-2"></i>mohammad.taha@canal-tel.com</a>
                             </div>
                         </div>
                     </div>
@@ -398,8 +398,8 @@
                             <h4 class="h5 mb-1">walid shakir</h4>
                             <p class="text-muted mb-2">Admin Manager</p>
                             <div class="contact-info">
-                                <p class="mb-1"><i class="fas fa-phone me-2"></i>+971 56 313 1394</p>
-                                <p class="mb-0"><i class="fas fa-envelope me-2"></i>walid.shaker@Canal-tel.com</p>
+                                <a href="tel:+971 56 313 1394" class="mb-1"><i class="fas fa-phone me-2"></i>+971 56 313 1394</a>
+                                <a href="mailto:walid.shaker@Canal-tel.com" class="mb-0"><i class="fas fa-envelope me-2"></i>walid.shaker@Canal-tel.com</a>
                             </div>
                         </div>
                     </div>
@@ -411,9 +411,9 @@
                             <h4 class="h5 mb-1">Moutaz Ayasra</h4>
                             <p class="text-muted mb-2">Logistics Manager</p>
                             <div class="contact-info">
-                                <p class="mb-1"><i class="fas fa-phone me-2"></i>+971 569 21 3377</p>
-                                <p class="mb-0"><i class="fas fa-envelope me-2"></i>Moutaz.ayasra@canal-tel.com</p>
-                                <p class="mb-0"><i class="fa-brands fa-linkedin me-2"></i>linkedin.com/in/moutaz-ayasra-82860aa2</p>
+                                <a href="tel:+971 569 21 3377" class="mb-1"><i class="fas fa-phone me-2"></i>+971 569 21 3377</a>
+                                <a href="mailto:Moutaz.ayasra@canal-tel.com" class="mb-0"><i class="fas fa-envelope me-2"></i>Moutaz.ayasra@canal-tel.com</a>
+                                <a href="https://linkedin.com/in/moutaz-ayasra-82860aa2" target="_blank" class="mb-0"><i class="fa-brands fa-linkedin me-2"></i>linkedin.com/in/moutaz-ayasra-82860aa2</a>
                             </div>
                         </div>
                     </div>
@@ -425,9 +425,9 @@
                             <h4 class="h5 mb-1">Ahmed Keshk</h4>
                             <p class="text-muted mb-2">Civil Manager</p>
                             <div class="contact-info">
-                                <p class="mb-1"><i class="fas fa-phone me-2"></i>+971 56 811 5528</p>
-                                <p class="mb-0"><i class="fas fa-envelope me-2"></i>ahmed.keshk@canal-tel.com</p>
-                                <p class="mb-0"><i class="fa-brands fa-linkedin me-2"></i>linkedin.com/in/ahmed-keshk-b2472637</p>
+                                <a href="tel:+971 56 811 5528" class="mb-1"><i class="fas fa-phone me-2"></i>+971 56 811 5528</a>
+                                <a href="mailto:ahmed.keshk@canal-tel.com" class="mb-0"><i class="fas fa-envelope me-2"></i>ahmed.keshk@canal-tel.com</a>
+                                <a href="https://linkedin.com/in/ahmed-keshk-b2472637" target="_blank" class="mb-0"><i class="fa-brands fa-linkedin me-2"></i>linkedin.com/in/ahmed-keshk-b2472637</a>
                             </div>
                         </div>
                     </div>
@@ -439,9 +439,9 @@
                             <h4 class="h5 mb-1">Sadam Khatab</h4>
                             <p class="text-muted mb-2">Telecom Manager</p>
                             <div class="contact-info">
-                                <p class="mb-1"><i class="fas fa-phone me-2"></i>+971 54 321 0048</p>
-                                <p class="mb-0"><i class="fas fa-envelope me-2"></i>sadam.khatab@canal-tel.com</p>
-                                <p class="mb-0"><i class="fa-brands fa-linkedin me-2"></i>linkedin.com/in/sadam-khatab-739404174</p>
+                                <a href="tel:+971 54 321 0048" class="mb-1"><i class="fas fa-phone me-2"></i>+971 54 321 0048</a>
+                                <a href="mailto:sadam.khatab@canal-tel.com" class="mb-0"><i class="fas fa-envelope me-2"></i>sadam.khatab@canal-tel.com</a>
+                                <a href="https://linkedin.com/in/sadam-khatab-739404174" target="_blank" class="mb-0"><i class="fa-brands fa-linkedin me-2"></i>linkedin.com/in/sadam-khatab-739404174</a>
                             </div>
                         </div>
                     </div>
@@ -453,8 +453,8 @@
                             <h4 class="h5 mb-1">Osama Abd alghafar</h4>
                             <p class="text-muted mb-2">Microwave Manager</p>
                             <div class="contact-info">
-                                <p class="mb-1"><i class="fas fa-phone me-2"></i>+971 50 636 2390</p>
-                                <p class="mb-0"><i class="fas fa-envelope me-2"></i>osama.abdelgaffar@canal-tel.com</p>
+                                <a href="tel:+971 50 636 2390" class="mb-1"><i class="fas fa-phone me-2"></i>+971 50 636 2390</a>
+                                <a href="mailto:osama.abdelgaffar@canal-tel.com" class="mb-0"><i class="fas fa-envelope me-2"></i>osama.abdelgaffar@canal-tel.com</a>
                             </div>
                         </div>
                     </div>
